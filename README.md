@@ -12,5 +12,11 @@ This case study has been developed by Talha Kosen
 * obsfication rules has not been written in proguard file
 
 
-![alt tag](https://dl.dropboxusercontent.com/u/68130108/escalada/image1.png=250x)
-![alt tag](https://dl.dropboxusercontent.com/u/68130108/escalada/image2.png=250x)
+![alt tag](https://dl.dropboxusercontent.com/u/68130108/escalada/image1.png){ 
+  max-width:  20px; 
+  display: block;
+}
+![alt tag](https://dl.dropboxusercontent.com/u/68130108/escalada/image2.png){ 
+  max-width:  20px; 
+  display: block;
+}
