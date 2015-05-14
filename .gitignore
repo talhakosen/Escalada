@@ -25,3 +25,21 @@ proguard/
 
 # Log Files
 *.log
+.idea/compiler.xml
+.idea/gradle.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/workspace.xml
+.idea/copyright/profiles_settings.xml
+.idea/libraries/appcompat_v7_22_0_0.xml
+.idea/libraries/cardview_v7_21_0_3.xml
+.idea/libraries/jackson_core_asl_1_1_0.xml
+.idea/libraries/library_1_0_15.xml
+.idea/libraries/materialloadingprogressbar_0_5_3_RELEASE.xml
+.idea/libraries/palette_v7_21_0_3.xml
+.idea/libraries/picasso_2_4_0.xml
+.idea/libraries/play_services_6_5_87.xml
+.idea/libraries/recyclerview_v7_21_0_3.xml
+.idea/libraries/support_annotations_22_0_0.xml
+.idea/libraries/support_v4_22_0_0.xml
