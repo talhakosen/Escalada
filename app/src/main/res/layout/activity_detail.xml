@@ -1,0 +1,122 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <escalada.talhakosen.com.escaladaassignment.ui.views.SquareImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop" />
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:fillViewport="true"
+        android:paddingTop="300dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/spacing_xlarge"
+                    app:cardElevation="@dimen/spacing_medium"
+                    app:cardUseCompatPadding="true">
+
+                    <TextView
+                        android:id="@+id/title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/spacing_large"
+                        android:layout_marginRight="@dimen/spacing_large"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+                </android.support.v7.widget.CardView>
+
+                <Button
+                    android:id="@+id/fab"
+                    style="@style/FabStyle"
+                    android:layout_gravity="top|end"
+                    android:layout_marginRight="@dimen/spacing_xlarge"
+                    android:text="T" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/spacing_xlarge"
+                    app:cardElevation="@dimen/spacing_medium"
+                    app:cardUseCompatPadding="true">
+
+
+                    <TextView
+                        android:id="@+id/desc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/spacing_large"
+                        android:layout_marginLeft="@dimen/spacing_xlarge"
+                        android:layout_marginRight="@dimen/spacing_xlarge"
+                        android:layout_marginTop="@dimen/spacing_large"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                        android:textSize="@dimen/abc_text_size_body_1_material" />
+
+
+                </android.support.v7.widget.CardView>
+
+                <Button
+                    android:id="@+id/fab2"
+                    style="@style/FabStyle2"
+                    android:layout_gravity="top|end"
+                    android:layout_marginRight="@dimen/spacing_xlarge"
+                    android:text="Desc" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/spacing_xlarge"
+                    app:cardElevation="@dimen/spacing_medium"
+                    app:cardUseCompatPadding="true">
+
+                    <escalada.talhakosen.com.escaladaassignment.ui.views.SquareImageView
+                        android:id="@+id/image2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:scaleType="centerCrop" />
+
+                </android.support.v7.widget.CardView>
+
+                <Button
+                    android:id="@+id/fab3"
+                    style="@style/FabStyle"
+                    android:layout_gravity="top|end"
+                    android:layout_marginRight="@dimen/spacing_xlarge"
+                    android:text="Image" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <include layout="@layout/includes_toolbar" />
+
+</FrameLayout>

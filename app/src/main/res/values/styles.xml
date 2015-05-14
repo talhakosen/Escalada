@@ -1,0 +1,66 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item> 
+        <item name="colorPrimaryDark">@color/primary_dark</item> 
+        <item name="colorControlHighlight">@color/accent_translucent</item> 
+        <item name="colorAccent">@color/accent</item>
+        <item name="selectableItemBackground">@drawable/selectable_item_background</item>
+
+    </style>
+
+    <style name="FabStyle">
+        <item name="android:layout_width">?attr/actionBarSize</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:layout_margin">@dimen/spacing_large</item>
+        <item name="android:background">@drawable/fab_background</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:src">@drawable/ic_add_black</item>
+
+    </style>
+
+    <style name="FabStyle2">
+        <item name="android:layout_width">?attr/actionBarSize</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:layout_margin">@dimen/spacing_large</item>
+        <item name="android:background">@drawable/fab_background2</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:src">@drawable/ic_add_black</item>
+
+    </style>
+
+
+    <style name="RaisedStyle">
+        <item name="android:layout_width">?attr/actionBarSize</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:layout_margin">@dimen/spacing_xsmall</item>
+        <item name="android:background">@drawable/raised_background</item>
+        <item name="android:textColor">@android:color/white</item>
+
+    </style>
+
+    <style name="RaisedStyle2">
+        <item name="android:layout_width">?attr/actionBarSize</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:layout_margin">@dimen/spacing_xsmall</item>
+        <item name="android:background">@drawable/raised_background2</item>
+        <item name="android:textColor">@android:color/white</item>
+
+    </style>
+
+    <color name="primary">#424242</color>
+    <color name="primary_dark">#212121</color>
+
+    <color name="accent">#4CAF50</color>
+    <color name="accent_translucent">#804CAF50</color>
+    <color name="accent_bright">#C8E6C9</color>
+
+    <color name="accent2">#03A9F4</color>
+    <color name="accent_translucent2">#8003A9F4</color>
+    <color name="accent_bright2">#E1BEE7</color>
+
+    <color name="accent3">#E91E63</color>
+    <color name="accent_translucent3">#80E91E63</color>
+    <color name="accent_bright3">#F8BBD0</color>
+
+</resources>
